@@ -1,5 +1,5 @@
 mountpoints:
-  /: https://adobe.sharepoint.com/:f:/r/sites/HelixProjects/Shared%20Documents/sites/starter-content-commerce
+  /: https://drive.google.com/drive/u/0/folders/1wWp2kZ2YknTSsoyDk6c0owI-Hc4O46qv
 
 folders:
   /products/: /products/default
