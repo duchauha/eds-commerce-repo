@@ -9,13 +9,18 @@
  * OF ANY KIND, either express or implied. See the License for the specific language
  * governing permissions and limitations under the License.
  */
-
+ :root .dropin-design{
+  --color-brand-300: #ffe006;
+  --color-brand-500: #ffe006;
+  --color-brand-600: #ffe006;
+  --color-brand-700: #ffe006;
+ }
 :root {
   /* Adobe Commerce Dropin design tokens */
-  --color-brand-300: #6d6d6d;
+  /*--color-brand-300: #6d6d6d;
   --color-brand-500: #454545;
   --color-brand-600: #383838;
-  --color-brand-700: #2b2b2b;
+  --color-brand-700: #2b2b2b;*/
   --color-neutral-50: #fff;
   --color-neutral-100: #fafafa;
   --color-neutral-200: #f5f5f5;

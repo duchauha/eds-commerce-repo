@@ -5,3 +5,12 @@
 .pdp-product__buttons > .dropin-button--primary { /* stylelint-disable-line selector-class-pattern */
   flex-grow: 1;
 }
+
+.dropin-design .pdp-product__title{
+  font-family: 'Times New Roman', Times, serif;
+  color:brown;
+}
+
+.dropin-design .pdp-price-range .dropin-price{
+  text-decoration: line-through;
+}
