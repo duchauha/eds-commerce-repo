@@ -246,7 +246,7 @@ export default async function decorate(block) {
               const dollar = '   $';
               const specialPrice = document.createElement('div');
               specialPrice.classList.add('sp-decoration');
-              specialPrice.innerHTML = dollar + (ctx.data.prices.final.amount-3);
+              specialPrice.innerHTML = dollar + (ctx.data.prices.final.amount - 3);
               ctx.appendSibling(specialPrice);
               // add good example
             },
