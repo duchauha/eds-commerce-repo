@@ -6,7 +6,7 @@
   flex-grow: 1;
 }
 
-.pdp-product__title{
+.dropin-design .pdp-product__title{ /* stylelint-disable-line selector-class-pattern */
   font-family: 'Times New Roman', Times, serif;
   color:brown;
 }
