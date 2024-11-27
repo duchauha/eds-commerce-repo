@@ -225,7 +225,6 @@ export default async function decorate(block) {
               });
 
               ctx.appendButton((next, state) => {
-                //alert("heart");
                 const adding = state.get('adding');
                 return ({
                   disabled: adding,
@@ -243,28 +242,20 @@ export default async function decorate(block) {
                 });
               });
             },
-
-            
-
             SpecialPrice: (ctx) => {
+              const dollar = '   $';
               const specialPrice = document.createElement('div');
               specialPrice.classList.add('sp-decoration');
-              specialPrice.innerHTML = '   $' + (ctx.data.prices.final.amount-3);
+              specialPrice.innerHTML = dollar + (ctx.data.prices.final.amount-3);
               ctx.appendSibling(specialPrice);
               // add good example
             },
-              Title: (ctx) => {
-                // title decoration
-                /*const tagline = document.createElement('div');
-                tagline.classList.add('title-decoration');
-                tagline.innerHTML = 'WKND Essentials';
-                ctx.prependSibling(tagline);*/
-          
-                const rating = document.createElement('div');
-                rating.classList.add('ratings');
-                rating.innerHTML = '⭐️⭐️⭐️⭐️⭐️';
-                ctx.appendSibling(rating);
-              },
+            Title: (ctx) => {
+              const rating = document.createElement('div');
+              rating.classList.add('ratings');
+              rating.innerHTML = '⭐️⭐️⭐️⭐️⭐️';
+              ctx.appendSibling(rating);
+            },
           },
           useACDL: true,
         })(block);
